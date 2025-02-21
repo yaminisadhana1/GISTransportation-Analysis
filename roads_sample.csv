@@ -1,0 +1,4 @@
+Road_ID,Name,Road_Type,Length_km,Speed_Limit,Start_Lat,Start_Lon,End_Lat,End_Lon
+1,Main Street,Highway,5.2,60,40.7128,-74.0060,40.7150,-74.0020
+2,Park Avenue,Main Road,3.0,50,40.7160,-74.0050,40.7200,-74.0000
+3,Elm Street,Residential,2.5,30,40.7190,-74.0030,40.7215,-73.9990
