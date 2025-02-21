@@ -10,6 +10,10 @@ roads = pd.read_csv("roads_sample.csv")
 # Create a map centered around the first road's starting point
 m = folium.Map(location=[roads["Start_Lat"][0], roads["Start_Lon"][0]], zoom_start=14)
 
+# Creating FeatureGroups for Highways and Local Roads
+highway_layer = folium.FeatureGroup(name="Highways")
+local_road_layer = folium.FeatureGroup(name="Local Roads")
+
 # Loop through the roads data to create a line for each road
 for _, row in roads.iterrows():
     folium.PolyLine(
